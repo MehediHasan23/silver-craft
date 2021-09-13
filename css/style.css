@@ -42,7 +42,7 @@ body {
   justify-content: center;
 }
 .single-product {
-  background: #fff;
+  background: white;
   padding: 10px;
   height: 430px;
   border-radius: 10px;
@@ -54,7 +54,7 @@ body {
   margin-top: 10px;
 }
 .single-product:hover {
-  box-shadow: 4px 4px 7px gray;
+  box-shadow: 2px 2px 7px rgb(36, 36, 36);
   border-radius: 10px;
   border: 1px solid gray;
 }
