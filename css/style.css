@@ -1,6 +1,12 @@
 body {
   overflow-x: hidden;
   font-family: "Montserrat", sans-serif;
+  background-color: lightgray !important
+}
+.header-section{
+  background-color: #303952af;
+  height: 150px;
+  padding: 10px;
 }
 .search-field {
   border: none;
@@ -36,13 +42,21 @@ body {
   justify-content: center;
 }
 .single-product {
+  background: #fff;
   padding: 10px;
+  height: 430px;
+  border-radius: 10px;
   transition: 0.6s;
+  border: 1px solid black;
+  width: 97%;
+  margin: 5px;
+  margin-left: 20px;
+  margin-top: 10px;
 }
 .single-product:hover {
   box-shadow: 4px 4px 7px gray;
   border-radius: 10px;
-  border: 1px solid cyan;
+  border: 1px solid gray;
 }
 .product-image {
   width: 150px;
@@ -52,10 +66,13 @@ body {
   width: 350px;
   /* border: 1px solid green; */
   padding: 10px;
-  box-shadow: 10px 10px 20px gray;
+  box-shadow: 1px 1px 10px gray;
   border-radius: 5px;
   margin-right: 30px;
+  margin-top: 10px;
   position: fixed;
+ 
+  /* background-color: gray; */
 }
 .cart-main {
   padding-right: 30px;
@@ -66,13 +83,13 @@ body {
     grid-template-columns: repeat(1, 1fr);
   }
   .cart {
-    width: 300px;
-    /* border: 1px solid green; */
-    padding: 10px;
-    box-shadow: 10px 10px 20px gray;
-    border-radius: 5px;
-    margin-right: 30px;
-    position: fixed;
+    width: 350px;
+  /* border: 1px solid green; */
+  padding: 10px;
+  box-shadow: 10px 10px 20px gray;
+  border-radius: 5px;
+  margin-right: 30px;
+  position: fixed;
   }
   .cart-main {
     padding-right: 10px;
