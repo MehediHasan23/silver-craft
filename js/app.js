@@ -62,13 +62,13 @@ const updatePrice = (id, value) => {
   const convertPrice = parseFloat(value);
   const total = convertedOldPrice + convertPrice;
   document.getElementById(id).innerText = total.toFixed(2);
-  // updateTotal()
+  
 };
 
 // set innerText function
 const setInnerText = (id, value) => {
   document.getElementById(id).innerText = value.toFixed(2);
-  // updateTotal()
+  
 };
 
 // update delivery charge and total Tax
