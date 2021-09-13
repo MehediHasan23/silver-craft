@@ -29,9 +29,9 @@ const showProducts = (products) => {
     <img class="product-image" src=${image}></img>
       </div>
       <h4>${product.title.slice(0,30)}</h4>
-      <p>Category: ${product.category}</p>
-      <h6>Rating: ${product.rating.rate} <i class="fas fa-star text-warning"></i></h6>
-     <h6>Total: ${product.rating.count}</h6>
+      <h6 style="text-transform:capitalize;">Category: ${product.category}</h6>
+      <h6>Rating: ${product.rating.rate} <i class="fas fa-star text-warning ms-1"></i></h6>
+     <h6>Total-Review: ${product.rating.count} <i class="fas fa-user ms-1"></i></h6>
      <h3>Price: $ ${product.price}</h3>
       <button onclick="addToCart(${product.price})" id="addToCart-btn" class="buy-now btn btn-success fw-bold text-light ">Add To Cart</button>
       <button id="details-btn" class="btn btn-primary fw-bold text-light">Details</button></div>

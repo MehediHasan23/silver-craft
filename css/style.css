@@ -84,7 +84,6 @@ body {
   }
   .cart {
     width: 350px;
-  /* border: 1px solid green; */
   padding: 10px;
   box-shadow: 10px 10px 20px gray;
   border-radius: 5px;
@@ -94,6 +93,7 @@ body {
   .cart-main {
     padding-right: 10px;
   }
+  
 }
 @media only screen and (max-width: 468px) {
   #all-products {
